@@ -74,7 +74,6 @@ function initMap() {
             center: london,
             gestureHandling: 'none',
             disableDefaultUI: true,
-            // mapTypeControl: true,
             styles: [
                 {
                   "elementType": "geometry",
@@ -318,7 +317,6 @@ function initMap() {
     document.getElementById('map').addEventListener('mouseover', function() {
         map.setOptions({
             disableDefaultUI: false,
-            // gestureHandling: '',
         });
     });
     // Hide controls on mouseout
@@ -329,7 +327,7 @@ function initMap() {
     });    
 }
 
-// const form  = document.getElementsByTagName('form')[0];
+// form validation
 const email = document.getElementById('email');
 const name = document.getElementById('name');
 const submit = document.getElementById('submit');
@@ -344,6 +342,7 @@ const validateName = () => {
         return true;
     }
 }
+
 const validateEmail = () => {
     if (email.value === '' || email.validity.typeMismatch) {
         email.setCustomValidity('Please fill in a valid email adress');
@@ -362,40 +361,9 @@ email.addEventListener('input', function() {
     validateEmail();
 });
 
-// Form validation
 submit.addEventListener('click', function (event) {
     if (validateName() && validateEmail()) {
         submittedBox.style.display = 'block';
         event.preventDefault();
     }
-    
-    console.log(name.value);
 });
-console.log(name);
-// console.log();
-// const resetInputValue = () => {
-//     if (name.focus()) {
-//         name.removeEventListener('click');
-//     }  
-// }
-
-// Email validation
-// email.addEventListener('input', function () {
-//   if (email.validity.typeMismatch) {
-//     email.setCustomValidity('Please fill in a valid email adress');
-//   } else {
-//     email.setCustomValidity('');
-//   }
-// });
-
-
-// const openButton = document.getElementById('open');
-// const closeButton = document.getElementById('close');
-
-// submit.onclick = function() {
-//     submittedBox.style.visibility = 'visible';
-// }
-
-// closeButton.onclick = function() {
-//     modalBox.style.visibility = 'hidden';
-// }
