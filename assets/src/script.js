@@ -1,21 +1,3 @@
-// Smooth Scroll from nav links
-// $(document).ready(function() {
-//     $(function() {
-//         $('a[href*="#"]:not([href="#"])').click(function() {
-//             // if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')) {
-//                 let target = $(this.hash);
-//                 target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//             if (target.length) {
-//                 $('html, body').animate({
-//                 scrollTop: target.offset().top
-//                 }, 1000);
-//                 return false;
-//                 }
-//             // }
-//         });
-//     });
-// });
-
 $(document).ready(function() {
     initMap();
     // Smooth Scroll from nav links
