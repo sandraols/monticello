@@ -289,6 +289,9 @@ $text-color-dark: #2C4058;
 .vertical-dots li:hover {
     background: white;
 }
+.vertical-dots li button:focus {
+    outline: none;
+}
 
 /* -------- Header Titles -------- */
 

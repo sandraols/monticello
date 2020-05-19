@@ -298,6 +298,10 @@
   background: white;
 }
 
+.vertical-dots li button:focus {
+  outline: none;
+}
+
 /* -------- Header Titles -------- */
 .header__title {
   display: -webkit-box;
