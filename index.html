@@ -15,22 +15,59 @@
 </head>
 <body>
     <header class="header">
+        <div class="header__slider-container">
+
+                <div class="header__title">
+                    <div class="upper__content">
+                        <h1 class="main__title">Simple &amp; modern</h1>
+                        <h2 class="subtitle">We make the world beautiful everyday</h2>
+                    </div>
+                </div>
+
+                <div class="header__title">
+                    <div class="upper__content">
+                        <h1 class="main__title">Nice &amp; Neat</h1>
+                        <h2 class="subtitle">We make the world beautiful everyday</h2>
+                    </div>
+                </div>
+
+                <div class="header__title">
+                    <div class="upper__content">
+                        <h1 class="main__title">Smart &amp; smooth</h1>
+                        <h2 class="subtitle">We make the world beautiful everyday</h2>
+                    </div>
+                </div>
+ 
+                <div class="header__title">
+                    <div class="upper__content">
+                        <h1 class="main__title">Pretty &amp; perfect</h1>
+                        <h2 class="subtitle">We make the world beautiful everyday</h2>
+                    </div>
+                </div>
+
+                <div class="header__title">
+                    <div class="upper__content">
+                        <h1 class="main__title">Fantastic &amp; fun</h1>
+                        <h2 class="subtitle">We make the world beautiful everyday</h2>
+                    </div>
+                </div>
+        </div>
         <nav class="nav">
             <img src="./assets/images/logo.svg" alt="logo">
             <ul class="nav__list">
                 <a class="nav__link-container" href="#">
-                    <div class="nav__bullet"></div>
+                    <div class="nav__bullet active"></div>
                     <li class="nav__link">About us</li>
                 </a>
-                <a class="nav__link-container" href="#">
+                <a class="nav__link-container" href="#projects">
                     <div class="nav__bullet"></div>
                     <li class="nav__link">Projects</li>
                 </a>
-                <a class="nav__link-container" href="#">
+                <a class="nav__link-container" href="#news">
                     <div class="nav__bullet"></div>
                     <li class="nav__link">News</li>
                 </a>
-                <a class="nav__link-container" href="#">
+                <a class="nav__link-container" href="#contact">
                     <div class="nav__bullet"></div>
                     <li class="nav__link">Contact</li>
                 </a>
@@ -41,57 +78,54 @@
                 <a href="#" class="socials__link"><i class="fab fa-instagram"></i></a>
             </div>
         </nav>
-        <div class="header__title">
-            <div class="upper__content">
-                <h1 class="main__title">Simple &amp; modern</h1>
-                <h2 class="subtitle">We make the world beautiful everyday</h2>
-            </div>
-            <div class="arrow__container"><i class="fas fa-chevron-down"></i></div>
-        </div>
+        <div class="arrow__container"><i class="fas fa-chevron-down"></i></div>
     </header>
-    <section class="projects-container">
-        <div class="section__title-container">
+    
+    <section id="projects" class="projects-container">
+        <div class="section__title-container section__title-container--projects">
             <div class="line"></div>
             <h2 class="section__title">What we do</h2>
         </div>
-        <div class="top-container">
-            <div class="images">
-                <div class="box box--blue"></div>
-                <img class="box--image" src="./assets/images/photo-2.png" alt="photo of scyscraper">
-            </div>
-            <div class="text__content">
-                <h3 class="above__title">One world</h3>
-                <h2 class="section__title">trade center</h2>
-                <p class="paragraph">Increasing prosperity in our lives can be accomplished by having the right 
-                    frame of mind. The truth is, our thoughts are very powerful.
-                </p>
-                <button class="button">more details</button>
-                <div class="adress-container">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p class="adress">New York City, United States - 1776 feet</p>
+        <div class="containers__wrapper">
+            <div class="top-container">
+                <div class="images">
+                    <div class="box box--blue"></div>
+                    <img class="box--image" src="./assets/images/photo-2.png" alt="photo of scyscraper">
+                </div>
+                <div class="text__content">
+                    <h3 class="above__title">One world</h3>
+                    <h2 class="section__title">trade center</h2>
+                    <p class="paragraph">Increasing prosperity in our lives can be accomplished by having the right 
+                        frame of mind. The truth is, our thoughts are very powerful.
+                    </p>
+                    <button class="button">more details</button>
+                    <div class="adress-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="adress">New York City, United States - 1776 feet</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="bottom-container">
-            <div class="text__content text__content--bottom">
-                <h3 class="above__title above__title--bottom">International</h3>
-                <h2 class="section__title section__title--bottom">Commerce centre</h2>
-                <p class="paragraph">Successful businesses have many things in common, today we’ll look 
-                    at the big ‘R’ of recognition and how a digital advertising network may help.
-                </p>
-                <button class="button button--bottom">more details</button>
-                <div class="adress-container">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p class="adress">Hong Kong - 1588 feet</p>
+            <div class="bottom-container">
+                <div class="text__content text__content--bottom">
+                    <h3 class="above__title above__title--bottom">International</h3>
+                    <h2 class="section__title section__title--bottom">Commerce centre</h2>
+                    <p class="paragraph">Successful businesses have many things in common, today we’ll look 
+                        at the big ‘R’ of recognition and how a digital advertising network may help.
+                    </p>
+                    <button class="button button--bottom">more details</button>
+                    <div class="adress-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="adress">Hong Kong - 1588 feet</p>
+                    </div>
                 </div>
-            </div>
-            <div class="images images--bottom">
-                <div class="box box--purple"></div>
-                <img class="box--image box--image--bottom" src="./assets/images/photo-3.png" alt="photo of scyscraper">
+                <div class="images images--bottom">
+                    <div class="box box--purple"></div>
+                    <img class="box--image box--image--bottom" src="./assets/images/photo-3.png" alt="photo of scyscraper">
+                </div>
             </div>
         </div>
     </section>
-    <section class="news-container">
+    <section id="news" class="news-container">
         <div class="section__title-container">
             <div class="line line--light"></div>
             <h2 class="section__title section__title--light">Latest News</h2>
@@ -102,14 +136,14 @@
             <div class="news__slider">
 
                 <div class="news__box">
-                    <img src="./assets/images/slider-img-1.png" alt="photo of modern building">
+                    <img class="news__img" src="./assets/images/slider-img-1.png" alt="photo of modern building">
                     <div class="news__content">
                         <h3 class="news__title">See the unmatched beauty of the great.</h3>
                         <p class="paragraph news__paragraph">Free directories: directories are perfect for customers that are searching for...</p>
                         <div class="person">
                             <img class="person__img" src="./assets/images/img-alja.png" alt="Alja photo">
                             <div class="person__info">
-                                <h4 class="person__name">Alja Brun</h4>
+                                <h4 class="person__name person__name--space">Alja Brun</h4>
                                 <p class="person__date">20 Jan 2020</p>
                             </div>
                         </div>
@@ -117,7 +151,7 @@
                 </div>
 
                 <div class="news__box">
-                    <img src="./assets/images/slider-img-2.png" alt="photo of modern building">
+                    <img class="news__img" src="./assets/images/slider-img-2.png" alt="photo of modern building">
                     <div class="news__content">
                         <h3 class="news__title">Effective advertising pointers.</h3>
                         <p class="paragraph news__paragraph">Having a home based business is a wonderful asset to your life...</p>
@@ -132,7 +166,7 @@
                 </div>
 
                 <div class="news__box">
-                    <img src="./assets/images/slider-img-3.png" alt="photo of modern building">
+                    <img class="news__img" src="./assets/images/slider-img-3.png" alt="photo of modern building">
                     <div class="news__content">
                         <h3 class="news__title">Hypnotize yourself into the ghost.</h3>
                         <p class="paragraph news__paragraph">There are many things that are important to catalog design...</p>
@@ -147,7 +181,7 @@
                 </div>
 
                 <div class="news__box">
-                    <img src="./assets/images/slider-img-1.png" alt="photo of modern building">
+                    <img class="news__img" src="./assets/images/slider-img-1.png" alt="photo of modern building">
                     <div class="news__content">
                         <h3 class="news__title">See the unmatched beauty of the great.</h3>
                         <p class="paragraph news__paragraph">Free directories: directories are perfect for customers that are searching for...</p>
@@ -162,7 +196,7 @@
                 </div>
 
                 <div class="news__box">
-                    <img src="./assets/images/slider-img-2.png" alt="photo of modern building">
+                    <img class="news__img" src="./assets/images/slider-img-2.png" alt="photo of modern building">
                     <div class="news__content">
                         <h3 class="news__title">Effective advertising pointers.</h3>
                         <p class="paragraph news__paragraph">Having a home based business is a wonderful asset to your life...</p>
@@ -180,7 +214,7 @@
             </div>
             <div class="arrow__box right"><i class="fas fa-chevron-right arrow arrow--right"></i></div>
         </div>
-        <!-- <img class="skyline" src="./assets/images/photo-4.png" alt="skyline"> -->
+        <img class="skyline" src="./assets/images/photo-4.png" alt="skyline">
     </section>
     <section class="gallery-container">
         <div class="gallery__content">
@@ -189,16 +223,41 @@
                 <h2 class="section__title">Gallery</h2>
             </div>
             <div class="images__container">
-                <img class="gallery__img" src="./assets/images/gallery-1.png" alt="photo of building">
-                <img class="gallery__img" src="./assets/images/gallery-2.png" alt="photo of building">
-                <img class="gallery__img" src="./assets/images/gallery-3.png" alt="photo of building">
-                <img class="gallery__img" src="./assets/images/gallery-4.png" alt="photo of building">
-                <img class="gallery__img" src="./assets/images/gallery-5.png" alt="photo of building">
+                <a class="img__wrapper" href="#">
+                    <img class="gallery__img" src="./assets/images/gallery-1.png" alt="photo of building">
+                    <div class="overlay">
+                        <img src="./assets/images/gallery-360.svg" alt="360 icon">
+                    </div>
+                </a>
+                <a class="img__wrapper" href="#">
+                    <img class="gallery__img" src="./assets/images/gallery-2.png" alt="photo of building">
+                    <div class="overlay">
+                        <img src="./assets/images/gallery-360.svg" alt="360 icon">
+                    </div>
+                </a>
+                <a class="img__wrapper" href="#">
+                    <img class="gallery__img" src="./assets/images/gallery-3.png" alt="photo of building">
+                    <div class="overlay">
+                        <img src="./assets/images/gallery-360.svg" alt="360 icon">
+                    </div>
+                </a>
+                <a class="img__wrapper" href="#">
+                    <img class="gallery__img" src="./assets/images/gallery-4.png" alt="photo of building">
+                    <div class="overlay">
+                        <img src="./assets/images/gallery-360.svg" alt="360 icon">
+                    </div>
+                </a>
+                <a class="img__wrapper" href="#">
+                    <img class="gallery__img" src="./assets/images/gallery-5.png" alt="photo of building">
+                    <div class="overlay">
+                        <img src="./assets/images/gallery-360.svg" alt="360 icon">
+                    </div>
+                </a>
             </div>
             <button class="button button--gallery">See More</button>
         </div>
     </section>
-    <section class="map-wrapper">
+    <section id="contact" class="map-wrapper">
         <div class="map" id="map"></div>
         <div class="contacts">
             <div class="section__title-container">
@@ -224,15 +283,33 @@
                         <p class="contacts__paragraph">From 07:05AM to 19:30PM</p>
                     </div>
                 </div>
-                <form onsubmit="return validateForm()">
-                    <input class="contacts__input" type="text" id="name" placeholder="Name" required>
-                    <input class="contacts__input" type="email" id="email" placeholder="Email" required>
-                    <button class="button button--submit" type="submit">Submit</button>
+                <form>
+                    <input class="contacts__input" type="text" id="name" placeholder="Name" autocomplete="off">
+                    <input class="contacts__input" type="email" id="email" placeholder="Email" autocomplete="off">
+                    <button id="submit" class="button button--submit" type="submit">Submit</button>
                 </form>
             </div>
             <img class="contacts__img" src="./assets/images/contacts-img.svg" alt="skyline svg">
         </div>
+        <div class="submitted__box" id="submitted-box">
+            <p class="submitted__title">Thank you for your interest!<br><br> We'll get back to you as soon as possible.</p>
+            <!-- <button class="close__button" id="close">Close</button> -->
+        </div>
     </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div>
+                <img src="./assets/images/logo.svg" alt="monticello logo">
+                <p class="copyrights">Copyrights © 2020 Montichello</p>
+            </div>
+            <div class="socials socials--footer">
+                <a href="#" class="socials__link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="socials__link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="socials__link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <img class="footer__img" src="./assets/images/footer-img.png" alt="footer image">
+    </footer>
     <script src="https://kit.fontawesome.com/9474fc5a33.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
