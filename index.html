@@ -53,7 +53,7 @@
                 </div>
         </div>
         <nav class="nav">
-            <img src="./assets/images/logo.svg" alt="logo">
+            <img class="lazy" src="./assets/images/logo.svg" data-sizes="100w" alt="logo">
             <ul class="nav__list">
                 <a class="nav__link-container" href="#">
                     <div class="nav__bullet active"></div>
@@ -90,7 +90,7 @@
             <div class="top-container">
                 <div class="images">
                     <div class="box box--blue"></div>
-                    <img class="box--image" src="./assets/images/photo-2.jpg" alt="photo of scyscraper">
+                    <img class="box--image lazy" src="./assets/images/photo-2.jpg" alt="photo of scyscraper" data-sizes="100w">
                 </div>
                 <div class="text__content">
                     <h3 class="above__title">One world</h3>
@@ -310,6 +310,7 @@
         </div>
         <img class="footer__img" src="./assets/images/footer-img.png" alt="footer image">
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js"></script>
     <script src="https://kit.fontawesome.com/9474fc5a33.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
