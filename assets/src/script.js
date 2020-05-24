@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    const lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+    });
+    lazyLoadInstance.update();
     initMap();
     // Smooth Scroll from nav links
     $(function() {
@@ -308,7 +312,6 @@ $(document).ready(function() {
             });
         });    
     }
-
     // form validation
     const email = document.getElementById('email');
     const name = document.getElementById('name');
@@ -324,7 +327,6 @@ $(document).ready(function() {
             return true;
         }
     }
-
     const validateEmail = () => {
         if (email.value === '' || email.validity.typeMismatch) {
             email.setCustomValidity('Please fill in a valid email adress');
@@ -334,15 +336,12 @@ $(document).ready(function() {
         return true;
         }
     }
-
     name.addEventListener('input', function () {
         validateName();
     });
-
     email.addEventListener('input', function() {
         validateEmail();
     });
-
     submit.addEventListener('click', function (event) {
         if (validateName() && validateEmail()) {
             submittedBox.style.display = 'block';
