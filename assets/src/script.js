@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    const lazyLoadInstance = new LazyLoad({
-        elements_selector: ".lazy"
-    });
-    lazyLoadInstance.update();
     initMap();
     // Smooth Scroll from nav links
     $(function() {
